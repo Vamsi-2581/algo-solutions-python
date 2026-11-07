@@ -20,3 +20,10 @@ s = Solution()
 print(s.sumOddLengthSubarrays([1,4,2,5,3])) # 58
 print(s.sumOddLengthSubarrays([10,11,12]))  # 66
 print(s.sumOddLengthSubarrays([1,2]))       # 3
+# Test cases
+assert s.sumOddLengthSubarrays([1, 4, 2, 5, 3]) == 58
+assert s.sumOddLengthSubarrays([1, 2]) == 3
+assert s.sumOddLengthSubarrays([10, 11, 12]) == 66
+assert s.sumOddLengthSubarrays([]) == 0
+assert s.sumOddLengthSubarrays([0, 0, 0]) == 0
+assert s.sumOddLengthSubarrays([-1, 2, -3]) == -4
