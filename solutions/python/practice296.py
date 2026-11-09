@@ -1,5 +1,4 @@
-# HackerRank - Utopian Tree
-# Problem: Utopian Tree
+ Problem: Utopian Tree
 # Source: https://www.hackerrank.com/challenges/utopian-tree/problem
 # Note: Calculates tree height after n growth cycles, doubling in spring and increasing by 1 in summer.
 def utopianTree(n):
@@ -10,3 +9,12 @@ def utopianTree(n):
         else:
             res += 1
     return res
+
+# Test cases
+assert utopianTree(0) == 1
+assert utopianTree(1) == 2
+assert utopianTree(3) == 6
+assert utopianTree(4) == 7
+assert utopianTree(5) == 14
+
+print("All test cases passed!")
